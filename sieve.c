@@ -65,7 +65,6 @@ int main () {
 
   bool *numbers = createNumbers(limit);
   int *prime_size;
-  printf("Last Number: %d \n", numbers[limit]);
 
   sieve(numbers, limit);
 
