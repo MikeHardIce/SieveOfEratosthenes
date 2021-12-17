@@ -3,7 +3,7 @@
 Learning some basic C by implementing the Sieve of Eratosthenes wiki: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 
 Clojure:
-```
+```Clojure
 (defn sieve 
   [^long limit]
   (let [limit-sqrt (-> limit Math/sqrt Math/round inc)]
